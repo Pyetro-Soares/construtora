@@ -25,14 +25,14 @@ nav{
     margin-left: 10px;
     border: 1.8px solid #000000;
     border-radius: 50vh;
-
+    background-color: var(--funto);
 }
 nav>a{
-    background-color: #131111;
+    background-color: var(--fundo);
     text-decoration: none;
     text-align: center;
     margin: auto;
     color: var(--vermprinci);
     font-size: 1.3em;
-    background-clip: text;
+
 }
