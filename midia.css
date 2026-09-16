@@ -65,7 +65,58 @@ span {
     padding: 30px;
     background-color: var(--corTerciaria);
 }
-#obras>h2, #obras > p {
+#casaone{
+    border-radius: 23px;
+    height: 280px;
+    width: 200px;
+    border: 2px solid var(--destaqueForte);
+    margin: auto;
+    text-align: center;
+}
+#casaone>img{
+    border-radius: 20px 20px 0px 0px;
+    width: 200px;
+    height: 200px;
+}
+#casaone > p {
+    color: var(--corSecundaria);
+    margin-top: 20px;
+}
+#casatwo{
+    border-radius: 23px;
+    height: 280px;
+    width: 200px;
+    border: 2px solid var(--destaqueForte);
+    margin: auto;
+    text-align: center;
+}
+#casatwo>img{
+    border-radius: 20px 20px 0px 0px;
+    width: 200px;
+    height: 200px;
+}
+#casatwo > p {
+    color: var(--corSecundaria);
+    margin-top: 20px;
+}
+#casatri{
+    margin: auto;
+    border-radius: 23px;
+    height: 280px;
+    width: 200px;
+    border: 2px solid var(--destaqueForte);
+    text-align: center;
+}
+#casatri>img{
+    border-radius: 20px 20px 0px 0px;
+    width: 200px;
+    height: 200px;
+}
+#casatri > p {
+    color: var(--corSecundaria);
+    margin-top: 20px;
+}
+#obras>h2, #casaone > p {
     font-family: 'Montserrat';
     background-color: transparent;
 }
