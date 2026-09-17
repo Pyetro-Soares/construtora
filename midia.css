@@ -65,12 +65,18 @@ span {
     padding: 30px;
     background-color: var(--corTerciaria);
 }
+#obras>h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
 #casaone{
     border-radius: 23px;
     height: 280px;
     width: 200px;
     border: 2px solid var(--destaqueForte);
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     text-align: center;
 }
 #casaone>img{
@@ -87,7 +93,9 @@ span {
     height: 280px;
     width: 200px;
     border: 2px solid var(--destaqueForte);
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     text-align: center;
 }
 #casatwo>img{
@@ -100,7 +108,9 @@ span {
     margin-top: 20px;
 }
 #casatri{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     border-radius: 23px;
     height: 280px;
     width: 200px;
@@ -124,9 +134,38 @@ span {
     background-color: var(--fundo);
     text-align: center;
 }
-#etapas > h2, li{
+#pcomquebra{
+    width: 390px;
+    margin: auto;
+}
+#etapas>h2{
+    margin-top: 10px;
+    font-size: 1.9em;
+}
+#etapas>ul>li{
+    text-align: center;
+    background-color: var(--corTerciaria);
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 15px;
+    border: 1px solid var(--destaqueForte);
+}
+#etapas>ul>li>h3{
+    color: var(--destaqueForte);
+    font-size: 1.6em;
+}
+#etapas>ul>li>p{
+    color: var(--corSecundaria);
+}
+#etapas>ul>li>p, #etapas>ul>li>h3{
     background-color: transparent;
-    font-family: 'Montserrat';
+    text-align: center;
+    font-family: 'Inter';
+}
+#etapas > h2{
+    background-color: transparent;
+    font-family: 'Inter';
 }
 #oqfaz{
     background-color: var(--corTerciaria);
@@ -137,6 +176,10 @@ span {
     padding-bottom: 20px;
     padding-left: 40px;
     font-family: 'Montserrat';
+}
+#oqfaz>ul>li{
+    background-color: transparent;
+    font-family: 'Inter';
 }
 p> span{
     font-family: 'Montserrat';
