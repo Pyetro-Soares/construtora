@@ -181,9 +181,26 @@ span {
     background-color: transparent;
     font-family: 'Inter';
 }
+#oqfaz>ul{
+    columns: 2;
+}
 p> span{
     font-family: 'Montserrat';
     color: var(--amarelo);
+}
+#contato{
+    text-align: center;
+    margin: 20px;
+}
+#contato>a{
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px;
+    border-radius: 50vh;
+    border: 1px solid var(--destaqueForte);
+    background-color: var(--corSecundaria);
+    color: var(--fundo);
+    font-family: 'Inter';
 }
 footer{
     text-align: center;
