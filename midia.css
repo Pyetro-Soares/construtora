@@ -70,28 +70,33 @@ span {
     margin-bottom: 20px;
 }
 #casaone{
+    display: flex;
     border-radius: 23px;
-    height: 280px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     border: 2px solid var(--destaqueForte);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     text-align: center;
+    flex-flow: row nowrap;
 }
 #casaone>img{
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
     width: 200px;
     height: 200px;
+    margin-right: 3px;
 }
 #casaone > p {
     color: var(--corSecundaria);
     margin-top: 20px;
 }
 #casatwo{
+    display: flex;
+    flex-flow: row nowrap;
     border-radius: 23px;
-    height: 280px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     border: 2px solid var(--destaqueForte);
     margin-left: auto;
     margin-right: auto;
@@ -99,32 +104,38 @@ span {
     text-align: center;
 }
 #casatwo>img{
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
     width: 200px;
     height: 200px;
 }
 #casatwo > p {
+    background-color: transparent;
     color: var(--corSecundaria);
     margin-top: 20px;
+    font-family: 'Montserrat';
 }
 #casatri{
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 23px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid var(--destaqueForte);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    border-radius: 23px;
-    height: 280px;
-    width: 200px;
-    border: 2px solid var(--destaqueForte);
     text-align: center;
 }
 #casatri>img{
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
     width: 200px;
     height: 200px;
 }
 #casatri > p {
+    background-color: transparent;
     color: var(--corSecundaria);
     margin-top: 20px;
+    font-family: 'Montserrat';
 }
 #obras>h2, #casaone > p {
     font-family: 'Montserrat';
@@ -135,7 +146,7 @@ span {
     text-align: center;
 }
 #pcomquebra{
-    width: 390px;
+    width: 290px;
     margin: auto;
 }
 #etapas>h2{
