@@ -61,6 +61,32 @@ span {
 #preview >div > h2{
     font-size: 1.2em;
 }
+#Localidade{
+    background-color: var(--destaqueForte);
+}
+#Localidade>h2{
+    background-color: transparent;
+    font-size: 1.7em;
+    color: var(--amarelo);
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 5px;
+}
+#Localidade>h4{
+    background-color: transparent;
+    font-size: 1.3em;
+    color: var(--amarelo);
+    font-family: 'Montserrat';
+    padding: 5px;
+    margin-left: 29px;
+}
+#Localidade>p{
+    background-color: transparent;
+    color: var(--amarelo);
+    font-family: 'Montserrat';
+    padding: 10px;
+    margin-left: 40px;
+}
 #obras{
     padding: 30px;
     background-color: var(--corTerciaria);
@@ -72,8 +98,8 @@ span {
 #casaone{
     display: flex;
     border-radius: 23px;
-    height: 200px;
-    width: 300px;
+    height: 140px;
+    width: 240px;
     border: 2px solid var(--destaqueForte);
     margin-left: auto;
     margin-right: auto;
@@ -83,8 +109,8 @@ span {
 }
 #casaone>img{
     border-radius: 20px 0px 0px 20px;
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     margin-right: 3px;
 }
 #casaone > p {
@@ -95,8 +121,8 @@ span {
     display: flex;
     flex-flow: row nowrap;
     border-radius: 23px;
-    height: 200px;
-    width: 300px;
+    height: 140px;
+    width: 240px;
     border: 2px solid var(--destaqueForte);
     margin-left: auto;
     margin-right: auto;
@@ -105,8 +131,8 @@ span {
 }
 #casatwo>img{
     border-radius: 20px 0px 0px 20px;
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
 }
 #casatwo > p {
     background-color: transparent;
@@ -118,8 +144,8 @@ span {
     display: flex;
     flex-flow: row nowrap;
     border-radius: 23px;
-    height: 200px;
-    width: 300px;
+    height: 140px;
+    width: 240px;
     border: 2px solid var(--destaqueForte);
     margin-left: auto;
     margin-right: auto;
@@ -128,8 +154,8 @@ span {
 }
 #casatri>img{
     border-radius: 20px 0px 0px 20px;
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
 }
 #casatri > p {
     background-color: transparent;
