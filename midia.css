@@ -253,6 +253,5 @@ footer>p{
 footer>a{
     font-family: 'Montserrat';
     color: var(--amarelo);
-    padding-top: 20px;
     background-color: transparent;
 }
