@@ -33,6 +33,9 @@ span {
     background-color: transparent;
     color: var(--corSecundaria);
 }
+#delayzin{
+    transition-delay: 0.4s;
+}
 #preview{
     height: 80vh;
     background-color: var(--fundo);
@@ -254,4 +257,16 @@ footer>a{
     font-family: 'Montserrat';
     color: var(--amarelo);
     background-color: transparent;
+}
+.hidden{
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateX(-100%);
+  transition-duration: 0.5s;
+}
+.show{
+  opacity: 1;
+  filter: none;
+  transform: translateX(0);
+  transition-duration: 0.5s;
 }

@@ -1,6 +1,11 @@
-let anosdexp = document.getElementById('textojs')
-let arrey = ['H', 'á', ' ', 'M', 'a', 'i', 's', ' ','d', 'e', ' ', '3', '5', ' ', 'a', 'n', 'o', 's']
-let armzem=''
-arrey.forEach(function(elemento){
-    console.log(arrey)
-});
+const myObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting===true){
+            entry.target.classList.add('show')
+        }else{
+            entry.target.classList.remove('show')
+        }
+    })
+})
+const elements = document.querySelectorAll('.hidden')
+elements.forEach((element) => myObserver.observe(element))
